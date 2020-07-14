@@ -39,10 +39,17 @@ body {}
 .header__top-search {
     padding-top: 27px;
     padding-left: 135px;
+    height: 28px;
 }
+.header__top-search input{
+    height: 23px;
+}
+
 
 .header__top-search img {
     position: absolute;
+    left: 1017px;
+    padding-top: 1px;
 }
 
 .header__top-login {
@@ -135,5 +142,24 @@ body {}
     left: 565px;
 }
 
-.header__content-btn {}
+.header__content-btn {
+    margin-top:160px ;
+}
 
+.header__content-btn a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #ff3a2d;
+    height: 45px;
+    width: 146px;
+    padding: 16px 32px;
+    margin-right: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.header__content-btn a:hover{
+    background: #ff3a2d;
+}
