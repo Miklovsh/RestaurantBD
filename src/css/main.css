@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+}
+
+body {}
+
+.header {
+    background-image: url(../img/background.jpg);
+    width: 1920px;
+    height: 930px;
+}
+
+.container {
+    max-width: 1450px;
+    margin-left: 375px;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__top-logo {
+    padding-top: 28px;
+}
+
+.header__top-site {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 32px;
+    color: #ffffff;
+}
+
+.header__top-site span {
+    color: #a12920;
+}
+
+.header__top-search {
+    padding-top: 27px;
+    padding-left: 135px;
+}
+
+.header__top-search img {
+    position: absolute;
+}
+
+.header__top-login {
+    padding-left: 195px;
+    padding-top: 32px;
+    font-family: 'simple-line-icons';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.header__top-login img {
+    position: absolute;
+    left: 1280px;
+}
+
+.header__top-number p {
+    position: absolute;
+    left: 1434px;
+    padding-top: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.menu {}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 105px;
+    position: absolute;
+    left: 800px;
+}
+
+.menu__list li {
+    padding-right: 43px;
+}
+
+.menu__list a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #222222;
+    text-decoration: none;
+}
+
+.menu__image {
+    display: flex;
+    position: absolute;
+    left: 1470px;
+    padding-top: 97px;
+}
+
+.menu__image img {
+    padding-right: 30px;
+}
+
+.header__content {
+    text-align: center;
+    padding-top: 220px;
+    padding-right: 270px;
+}
+
+.header__content-heading {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #00c5d2;
+    padding-bottom: 22px;
+}
+
+.header__content-title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 45px;
+}
+
+.header__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #ebeaea;
+    width: 800px;
+    position: absolute;
+    left: 565px;
+}
+
+.header__content-btn {}
+
