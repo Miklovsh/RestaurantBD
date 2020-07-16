@@ -5,7 +5,7 @@ html {
 body {}
 
 .header {
-    background: url(../img/background.jpg) center bottom;
+    background: url(../img/background.jpg) center;
     max-width: 1920px;
     height: 930px;
 }
@@ -45,16 +45,20 @@ body {}
     height: 27px;
     position: absolute;
     left: 26%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .header__top-search input {
-    height: 22.3px;
+    height: 23.3px;
+    background-color: #bababa;
 }
 
 .header__top-search img {
     position: absolute;
     right: -25px;
-    padding-top: 0.4px;
+    padding-top: 0.5px;
 }
 
 .header__top-login {
