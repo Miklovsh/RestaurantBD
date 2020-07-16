@@ -173,3 +173,120 @@ body {}
 .header__content-btn a:hover {
     background: #ff3a2d;
 }
+
+.content {}
+
+.container {}
+
+.content__title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    color: #222222;
+    margin-top: 145px;
+    width: 240px;
+    text-align: center;
+}
+
+.content__title span {
+    font-size: 48px;
+    color: #ff3a2d;
+}
+
+.content__icon {
+    padding-top: 26px;
+    position: absolute;
+    left: 7%;
+}
+
+.content__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    padding-top: 94px;
+    width: 660px;
+    line-height: 28px;
+}
+
+.content__autor-text {
+    font-size: 28px;
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    width: 204px;
+    text-align: center;
+    padding-top: 75px;
+    color: #1c1c1c;
+}
+
+.content__autor-text span {
+    font-size: 16px;
+}
+
+.content__form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ff3a2d;
+    width: 370px;
+    height: 555px;
+    background: #ff3a2d;
+}
+
+.content__form input {
+    position: absolute;
+    left: 6%;
+    width: 330px;
+    height: 30px;
+    border-style: none;
+}
+
+.content__form select {
+    width: 20px;
+    border-style: none;
+    position: absolute;
+}
+
+.content__form-title {}
+
+.content__form-name {
+    margin-top: 150px;
+}
+
+.content__form-total {
+    margin-top: 210px;
+}
+
+.content__form-date {
+    margin-top: 270px;
+}
+
+.content__form-time {
+    margin-top: 330px;
+}
+
+.content__form-table {
+    margin-top: 390px;
+}
+
+.content__select-total {
+    margin-top: 215px;
+    margin-left: 152px;
+}
+
+.content__select-date {
+    margin-top: 275px;
+    margin-left: 190px;
+}
+
+.content__select-time {
+    margin-top: 335px;
+    margin-left: 175px;
+}
+
+.content__select-table {
+    margin-top: 395px;
+    margin-left: 120px;
+}
+
+.content__image {}
