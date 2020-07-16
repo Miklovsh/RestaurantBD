@@ -174,9 +174,10 @@ body {}
     background: #ff3a2d;
 }
 
-.content {}
-
-.container {}
+.content {
+    background-color: #ffffff;
+    background-image: url(../img/leaves.png) no-repeat;
+}
 
 .content__title {
     font-family: 'Lobster Two', cursive;
@@ -205,8 +206,8 @@ body {}
     font-size: 14px;
     font-weight: 400;
     color: #808080;
-    padding-top: 94px;
-    width: 660px;
+    padding-top: 84px;
+    width: 670px;
     line-height: 28px;
 }
 
@@ -216,7 +217,7 @@ body {}
     font-weight: 400;
     width: 204px;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 45px;
     color: #1c1c1c;
 }
 
@@ -231,14 +232,22 @@ body {}
     width: 370px;
     height: 555px;
     background: #ff3a2d;
+    float: right;
+    margin-top: -550px;
 }
 
 .content__form input {
     position: absolute;
-    left: 6%;
-    width: 330px;
+    left: 66%;
+    width: 320px;
     height: 30px;
     border-style: none;
+    padding-left: 22px;
+    margin-left: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #959595;
 }
 
 .content__form select {
@@ -247,7 +256,20 @@ body {}
     position: absolute;
 }
 
-.content__form-title {}
+.content__form-title {
+    margin-top: 80px;
+    display: flex;
+    padding-left: 78px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.content__form-title img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 .content__form-name {
     margin-top: 150px;
@@ -271,22 +293,37 @@ body {}
 
 .content__select-total {
     margin-top: 215px;
-    margin-left: 152px;
+    margin-left: 200px;
 }
 
 .content__select-date {
     margin-top: 275px;
-    margin-left: 190px;
+    margin-left: 250px;
 }
 
 .content__select-time {
     margin-top: 335px;
-    margin-left: 175px;
+    margin-left: 220px;
 }
 
 .content__select-table {
     margin-top: 395px;
-    margin-left: 120px;
+    margin-left: 172px;
 }
 
 .content__image {}
+
+.content__form a {
+    text-decoration: none;
+    border: 1px solid #1fd9eb;
+    margin-top: 340px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 10px 130px;
+    background: #1fd9eb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    border-style: none;
+}
