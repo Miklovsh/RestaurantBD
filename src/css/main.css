@@ -421,3 +421,43 @@ body {}
 .gallery__slider-desc6 {
     padding-left: 995px;
 }
+
+.about {}
+
+.about__title {
+    margin-top: 945px;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    width: 400px;
+    line-height: 54px;
+    color: #ff3a2d;
+}
+
+.about__title span {
+    font-family: 'Lobster Two', cursive;
+    color: #222222;
+}
+
+.about__icon {
+    padding-top: 1px;
+}
+
+.about__text {
+    font-size: 14px;
+    width: 790px;
+    height: 136px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #808080;
+}
+
+.about__details {}
+
+.about__image {
+    float: right;
+    margin-top: -400px;
+    position: absolute;
+    left: 50%;
+}
