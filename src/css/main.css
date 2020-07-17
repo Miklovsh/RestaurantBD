@@ -8,6 +8,7 @@ body {}
     background: url(../img/background.jpg) center;
     max-width: 1920px;
     height: 930px;
+    position: relative;
 }
 
 .container {
@@ -23,6 +24,8 @@ body {}
 
 .header__top-logo {
     padding-top: 28px;
+    position: absolute;
+    left: 5%;
 }
 
 .header__top-site {
@@ -176,7 +179,6 @@ body {}
 
 .content {
     background-color: #ffffff;
-    background-image: url(../img/leaves.png) no-repeat;
 }
 
 .content__title {
@@ -228,22 +230,16 @@ body {}
 .content__form {
     display: flex;
     flex-direction: column;
-    border: 1px solid #ff3a2d;
-    width: 370px;
-    height: 555px;
-    background: #ff3a2d;
-    float: right;
-    margin-top: -550px;
+    position: relative;
 }
 
 .content__form input {
     position: absolute;
-    left: 66%;
+    left: 3%;
     width: 320px;
     height: 30px;
     border-style: none;
     padding-left: 22px;
-    margin-left: 7px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -272,51 +268,70 @@ body {}
 }
 
 .content__form-name {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .content__form-total {
-    margin-top: 210px;
+    margin-top: 110px;
 }
 
 .content__form-date {
-    margin-top: 270px;
+    margin-top: 170px;
 }
 
 .content__form-time {
-    margin-top: 330px;
+    margin-top: 230px;
 }
 
 .content__form-table {
-    margin-top: 390px;
+    margin-top: 290px;
 }
 
 .content__select-total {
-    margin-top: 215px;
+    margin-top: 115px;
     margin-left: 200px;
 }
 
 .content__select-date {
-    margin-top: 275px;
+    margin-top: 175px;
     margin-left: 250px;
 }
 
 .content__select-time {
-    margin-top: 335px;
+    margin-top: 235px;
     margin-left: 220px;
 }
 
 .content__select-table {
-    margin-top: 395px;
+    margin-top: 295px;
     margin-left: 172px;
 }
 
-.content__image {}
+.content__image {
+    position: absolute;
+    left: 70%;
+    margin-top: -200px;
+    margin-left: 45px;
+    z-index: 1;
+}
+
+.content__form-border {
+    border: 1px solid #ff3a2d;
+    width: 370px;
+    height: 555px;
+    background: #ff3a2d;
+    position: absolute;
+    float: right;
+    margin-top: -550px;
+    left: 63%;
+    z-index: 2;
+}
 
 .content__form a {
     text-decoration: none;
     border: 1px solid #1fd9eb;
-    margin-top: 340px;
+    position: absolute;
+    margin-top: 345px;
     margin-left: 12px;
     margin-right: 12px;
     padding: 10px 130px;
