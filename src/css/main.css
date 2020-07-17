@@ -451,13 +451,19 @@ body {}
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #808080;
+    position: absolute;
+    z-index: 2;
 }
 
-.about__details {}
+.about__details {
+    padding-top: 200px;
+    position: absolute;
+}
 
 .about__image {
     float: right;
-    margin-top: -400px;
+    margin-top: -200px;
     position: absolute;
-    left: 50%;
+    left: 65%;
+    z-index: 1;
 }
