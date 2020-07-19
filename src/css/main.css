@@ -586,3 +586,183 @@ body {}
     padding-top: 70px;
     padding-left: 80px;
 }
+
+.dish__title {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #ff3a2d;
+    width: 643px;
+    height: 91px;
+    text-align: center;
+    margin-top: 185px;
+    position: absolute;
+    left: 25%;
+}
+
+.dish__title span {
+    font-family: 'Lobster Two', cursive;
+    color: #222222;
+}
+
+.dish__icon {
+    position: absolute;
+    left: 40%;
+    margin-top: 295px;
+}
+
+.dish__list {
+    position: absolute;
+    left: 20%;
+    margin-top: 390px;
+}
+
+.dish__list ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.dish__list a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 49px;
+    font-size: 20px;
+    color: #222222;
+}
+
+.dish__list a:hover {
+    color: #ff3a2d;
+    text-decoration: underline;
+}
+
+.dish__item {
+    display: flex;
+    position: absolute;
+    margin-top: 505px;
+}
+
+.dish__item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #808080;
+}
+
+.dish__item span {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+.dish__item-left p {
+    position: absolute;
+    left: 115px;
+    margin-top: -140px;
+    width: 45%;
+    height: 50px;
+}
+
+.dish__item-left img {
+    padding-bottom: 40px;
+}
+
+.dish__burger-price {
+    position: absolute;
+    left: 45%;
+    padding-top: 3px;
+}
+
+.dish__dipper-price {
+    position: absolute;
+    left: 45%;
+    padding-top: 3px;
+}
+
+.dish__wings-price {
+    position: absolute;
+    left: 45%;
+    padding-top: 3px;
+}
+
+.dish__california-price {
+    position: absolute;
+    left: 45%;
+    padding-top: 3px;
+}
+
+.dish__housebbg-price {
+    position: absolute;
+    left: 45%;
+    padding-top: 3px;
+}
+
+.dish__item-right {
+    float: right;
+    padding-left: 500px;
+}
+
+.dish__item-right p {
+    position: absolute;
+    left: 102%;
+    margin-top: -140px;
+    width: 45%;
+    height: 50px;
+}
+
+.dish__item-right img {
+    padding-bottom: 40px;
+}
+
+.dish__crispers-price {
+    position: absolute;
+    left: 1020px;
+    padding-top: 3px;
+}
+
+.dish__crispy-price {
+    position: absolute;
+    left: 1020px;
+    padding-top: 3px;
+}
+
+.dish__chicken-price {
+    position: absolute;
+    left: 1020px;
+    padding-top: 3px;
+}
+
+.dish__pepper-price {
+    position: absolute;
+    left: 1020px;
+    padding-top: 3px;
+}
+
+.dish__chocolate-price {
+    position: absolute;
+    left: 1020px;
+    padding-top: 3px;
+}
+
+.dish__btn {
+    position: absolute;
+    margin-top: 1270px;
+    margin-left: 35%;
+}
+
+.dish__btn a {
+    border: 1px solid #ff3a2d;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 20px 70px;
+    text-decoration: none;
+    background: #ff3a2d;
+    border-radius: 4px;
+    text-align: center;
+}
