@@ -767,30 +767,32 @@ body {}
     text-align: center;
 }
 
-.team{
+.team {
     margin-top: 1500px;
 }
-.team__inner{
+
+.team__inner {
     display: flex;
     padding-left: 10px;
-    padding-top: 200px;  
+    padding-top: 200px;
 }
-.team__inner p{
+
+.team__inner p {
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-weight: 400;
     font-size: 24px;
     color: #26c9d5;
     line-height: 28px;
-    padding-top: 35px;
-    }
-    
+    padding-top: 470px;
+    padding-left: 20px;
+}
 
-    .team__inner span{
-        font-size: 18px;
-        color: #808080;
-    }
-    
+.team__inner span {
+    font-size: 18px;
+    color: #808080;
+}
+
 .team__title {
     position: absolute;
     left: 35%;
@@ -798,47 +800,51 @@ body {}
     font-size: 36px;
     font-weight: 400;
     line-height: 54px;
-    color: #ff3a2d;  
+    color: #ff3a2d;
     width: 370px;
     height: 112px;
     text-align: center;
 }
-.team__title span{
+
+.team__title span {
     font-family: 'Lobster Two', cursive;
     color: #222222;
 }
-.team__icon{
+
+.team__icon {
     position: absolute;
     left: 40%;
     padding-top: 110px;
-
 }
+
 .team__image-big {
     position: absolute;
     left: -10%;
     padding-top: 100px;
     z-index: 1;
 }
+
 .team__image-small {
     position: absolute;
     left: 86%;
     margin-top: 725px;
     z-index: 3;
-
 }
+
 .team__chief {
     border: 1px solid #dadada;
-    background-color: #ffffff;;
+    background-color: #ffffff;
+    ;
     width: 375px;
     height: 600px;
     z-index: 2;
 }
 
-.team__image-follow{
-    padding-left: 90px;
-    padding-top: 25px;
-
+.team__image-follow {
+    padding-left: 100px;
+    padding-top: 30px;
 }
+
 .team__woman-cook {
     border: 1px solid #dadada;
     background-color: #ffffff;
@@ -847,7 +853,6 @@ body {}
     margin-left: 8px;
 }
 
-
 .team__man-cook {
     border: 1px solid #dadada;
     background-color: #ffffff;
@@ -855,4 +860,46 @@ body {}
     height: 600px;
     margin-left: 8px;
     z-index: 4;
+}
+
+.team__inner a {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.team__inner a:after {
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.team__inner a:hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background-image: linear-gradient(to left, #11de93, #0e7ad6);
+    opacity: 0.8;
+}
+
+.team__inner a:before {
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.team__inner a:hover:before {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -26px 0 0 -26px;
+    z-index: 100;
+    background: url(../img/zoom.png) 0 0 no-repeat;
+    opacity: 1;
 }
