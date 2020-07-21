@@ -1129,3 +1129,57 @@ body {}
 .feedback__content-autor span {
     font-size: 16px;
 }
+
+.subscribe {
+    background: url(../img/subscribe-background.png) center no-repeat;
+    max-width: 1920px;
+    height: 595px;
+}
+
+.subscribe__title {
+    padding-top: 195px;
+}
+
+.subscribe__title p {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.subscribe__icon {
+    padding-top: 20px;
+}
+
+.subscribe__text {
+    position: absolute;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 585px;
+    height: 90px;
+    line-height: 28px;
+}
+
+.subscribe__email input {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 410px;
+    height: 79px;
+    padding-left: 22px;
+    margin-top: 50px;
+    margin-left: 650px;
+    z-index: 1;
+}
+
+.subscribe__email img {
+    position: absolute;
+    margin-left: 1048px;
+    margin-top: 50px;
+    border: none;
+    z-index: 2;
+}
