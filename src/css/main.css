@@ -925,7 +925,7 @@ body {}
     width: 1000px;
     z-index: 6;
     position: absolute;
-    left: 12%;
+    left: 10%;
     margin-top: 630px;
     box-shadow: #dadada;
 }
@@ -936,7 +936,8 @@ body {}
     padding-bottom: 10px;
     font-family: 'Lobster Two', cursive;
     font-size: 36px;
-    color: #222222
+    color: #222222;
+    font-weight: 400;
 }
 
 .event__info-icon {
@@ -1023,4 +1024,108 @@ body {}
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
+}
+
+.feedback {
+    margin-top: 1400px;
+    padding-bottom: 150px;
+    background-color: #ffe8e7;
+}
+
+.feedback__title {
+    position: absolute;
+    left: 35%;
+    padding-top: 150px;
+}
+
+.feedback__title p {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #ff3a2d;
+    width: 450px;
+    height: 112px;
+    text-align: center;
+}
+
+.feedback__title span {
+    font-family: 'Lobster Two', cursive;
+    color: #222222;
+}
+
+.feedback__icon {
+    position: absolute;
+    left: 42%;
+    padding-top: 260px;
+}
+
+.feedback__image {
+    padding-top: 365px;
+}
+
+.feedback__settings {
+    position: absolute;
+    left: 34.4%;
+    margin-top: -280px;
+}
+
+.feedback__content {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 770px;
+    height: 515px;
+    position: absolute;
+    left: 37%;
+    margin-top: -515px;
+}
+
+.feedback__content-icon {
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 70px;
+}
+
+.feedback__content-text {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #808080;
+    padding-top: 195px;
+    width: 615px;
+    height: 75px;
+    text-align: center;
+    padding-left: 85px;
+}
+
+.feedback__content-rating {
+    position: absolute;
+    padding-top: 360px;
+    padding-left: 310px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feedback__content-rating span {
+    color: #ff3a2d;
+}
+
+.feedback__content-autor {
+    position: absolute;
+    padding-top: 430px;
+    padding-left: 300px;
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #1c1c1c;
+    line-height: 25px;
+    text-align: center;
+}
+
+.feedback__content-autor span {
+    font-size: 16px;
 }
