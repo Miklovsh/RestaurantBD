@@ -1631,3 +1631,23 @@ body {}
     background: url(../img/blog-hover.png) 0 0 no-repeat;
     z-index: 100;
 }
+
+.contact {}
+
+.contact__title {
+    margin-top: 180px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #222222;
+    padding-left: 600px;
+}
+
+.contact__icon {
+    padding-top: 20px;
+    padding-left: 520px;
+}
+
+.contact__map {
+    padding-top: 120px;
+}
