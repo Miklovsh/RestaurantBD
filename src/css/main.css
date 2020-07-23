@@ -1651,3 +1651,97 @@ body {}
 .contact__map {
     padding-top: 120px;
 }
+
+.schedule {
+    float: left;
+}
+
+.schedule__title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 195px;
+}
+
+.schedule__icon {
+    padding-top: 15px;
+}
+
+.schedule__list {}
+
+.schedule__list li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #808080;
+    line-height: 60px;
+}
+
+.schedule__list span {
+    color: #222222;
+}
+
+.form {}
+
+.form ::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+    padding-left: 20px;
+}
+
+.form__title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 195px;
+    margin-left: 600px;
+}
+
+.form__name {
+    margin-left: 600px;
+    padding-top: 40px;
+}
+
+.form__name input {
+    width: 480px;
+    height: 45px;
+}
+
+.form__email {
+    margin-left: 600px;
+    padding-top: 37px;
+}
+
+.form__email input {
+    width: 480px;
+    height: 45px;
+}
+
+.form__message {
+    margin-left: 600px;
+    padding-top: 37px;
+}
+
+.form__message textarea {
+    width: 480px;
+    resize: none;
+}
+
+.form__btn {
+    margin-left: 600px;
+    padding-top: 37px;
+}
+
+.form__btn a {
+    border: 1px solid #ff756c;
+    background: #ff756c;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffe3e2;
+}
