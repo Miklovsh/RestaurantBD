@@ -10,7 +10,8 @@ const browserSync = require('browser-sync').create();
 //Порядок подключения css файлов
 const cssFiles = [
         './src/css/main.css',
-        './src/css/media.css'
+        './src/css/media.css',
+      
     ]
     //Порядок подключения js файлов
 const jsFiles = [
