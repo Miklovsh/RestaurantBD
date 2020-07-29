@@ -66,7 +66,6 @@
                 <div class="header__title ">
                     <h1> We Provide 100% Pure & Healthy Food</h1>
                 </div>
-
                 <div class="header__text ">
                     <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
                         in the 1960s.</p>
@@ -249,109 +248,127 @@
                 <div class="dish__icon ">
                     <img src="src/img/double-trident.png " alt=" ">
                 </div>
-                <div class="dish__list ">
-                    <ul>
-                        <li><a href="# ">All</a></li>
-                        <li><a href="# ">Breakfast</a></li>
-                        <li><a href="# ">Lunch</a></li>
-                        <li><a href="# ">Dinner</a></li>
-                        <li><a href="# ">Desart</a></li>
-                        <li><a href="# ">Kids Menu</a></li>
-                    </ul>
+                <div class="dish__nav ">
+                    <a class="dish__nav-link" href="#" data-filter="all">All</a>
+                    <a class="dish__nav-link" href="#" data-filter="breakfast">Breakfast</a>
+                    <a class="dish__nav-link" href="#" data-filter="lunch">Lunch</a>
+                    <a class="dish__nav-link" href="#" data-filter="dinner">Dinner</a>
+                    <a class="dish__nav-link" href="#" data-filter="desart">Desart</a>
+                    <a class="dish__nav-link" href="#" data-filter="kids-menu">Kids Menu</a>
                 </div>
-                <div class="dish__item ">
+                <div class="dish__item " id="dish-menu">
                     <div class="dish__item_left ">
-                        <div class="dish__burger-image ">
-                            <img src="src/img/burger.png " alt=" ">
+                        <div class="dish__col" data-cat="lunch">
+                            <div class="dish__burger-image ">
+                                <img src="src/img/burger.png " alt=" ">
+                            </div>
+                            <div class="dish__burger-text ">
+                                <p> <span>Chicken Burger...................................</span><br> Internet tend to repeat predefined chunks as necessary, making this Internet. </p>
+                            </div>
+                            <div class="dish__burger-price ">
+                                <p><span>$10.50</span></p>
+                            </div>
                         </div>
-                        <div class="dish__burger-text ">
-                            <p> <span>Chicken Burger...................................</span><br> Internet tend to repeat predefined chunks as necessary, making this Internet. </p>
+                        <div class="dish__col" data-cat="desart">
+                            <div class="dish__dipper-image ">
+                                <img src="src/img/dipper.png " alt=" ">
+                            </div>
+                            <div class="dish__dipper-text ">
+                                <p><span>Triple Dipper........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__dipper-price ">
+                                <p><span>$8.90</span></p>
+                            </div>
                         </div>
-                        <div class="dish__burger-price ">
-                            <p><span>$10.50</span></p>
+                        <div class="dish__col" data-cat="breakfast">
+                            <div class="dish__wings-image ">
+                                <img src="src/img/wings.png " alt=" ">
+                            </div>
+                            <div class="dish__wings-text ">
+                                <p><span>Boneless Wings..................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__wings-price ">
+                                <p><span>$12.40</span></p>
+                            </div>
                         </div>
-                        <div class="dish__dipper-image ">
-                            <img src="src/img/dipper.png " alt=" ">
+                        <div class="dish__col" data-cat="dinner">
+                            <div class="dish__california-image ">
+                                <img src="src/img/california.png " alt=" ">
+                            </div>
+                            <div class="dish__california-text ">
+                                <p><span>California Turkey...............................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__california-price ">
+                                <p><span>$14.50</span></p>
+                            </div>
                         </div>
-                        <div class="dish__dipper-text ">
-                            <p><span>Triple Dipper........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__dipper-price ">
-                            <p><span>$8.90</span></p>
-                        </div>
-                        <div class="dish__wings-image ">
-                            <img src="src/img/wings.png " alt=" ">
-                        </div>
-                        <div class="dish__wings-text ">
-                            <p><span>Boneless Wings..................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__wings-price ">
-                            <p><span>$12.40</span></p>
-                        </div>
-                        <div class="dish__california-image ">
-                            <img src="src/img/california.png " alt=" ">
-                        </div>
-                        <div class="dish__california-text ">
-                            <p><span>California Turkey...............................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__california-price ">
-                            <p><span>$14.50</span></p>
-                        </div>
-                        <div class="dish__housebbg-image ">
-                            <img src="src/img/house.png " alt=" ">
-                        </div>
-                        <div class="dish__housebbg-text ">
-                            <p><span>House BBQ...........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__housebbg-price ">
-                            <p><span>$18.30</span></p>
+                        <div class="dish__col" data-cat="kids-menu">
+                            <div class="dish__housebbg-image ">
+                                <img src="src/img/house.png " alt=" ">
+                            </div>
+                            <div class="dish__housebbg-text ">
+                                <p><span>House BBQ...........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__housebbg-price ">
+                                <p><span>$18.30</span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="dish__item_right ">
-                        <div class="dish__crispers-image ">
-                            <img src="src/img/crispers.png " alt=" ">
+                        <div class="dish__col" data-cat="lunch">
+                            <div class="dish__crispers-image ">
+                                <img src="src/img/crispers.png " alt=" ">
+                            </div>
+                            <div class="dish__crispers-text ">
+                                <p><span>Santa Fe Crispers..............................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__crispers-price ">
+                                <p><span>$12.50</span></p>
+                            </div>
                         </div>
-                        <div class="dish__crispers-text ">
-                            <p><span>Santa Fe Crispers..............................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                        <div class="dish__col" data-cat="lunch">
+                            <div class="dish__crispy-image ">
+                                <img src="src/img/crispy.png " alt=" ">
+                            </div>
+                            <div class="dish__crispy-text ">
+                                <p><span>Crispy Fiery.........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__crispy-price ">
+                                <p><span>$6.90</span></p>
+                            </div>
                         </div>
-                        <div class="dish__crispers-price ">
-                            <p><span>$12.50</span></p>
+                        <div class="dish__col" data-cat="lunch">
+                            <div class="dish__chicken-image ">
+                                <img src="src/img/chicken.png " alt=" ">
+                            </div>
+                            <div class="dish__chicken-text ">
+                                <p><span>Chicken Mex Bowl.............................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__chicken-price ">
+                                <p><span>$11.40</span></p>
+                            </div>
                         </div>
-                        <div class="dish__crispy-image ">
-                            <img src="src/img/crispy.png " alt=" ">
+                        <div class="dish__col" data-cat="dinner">
+                            <div class="dish__pepper-image ">
+                                <img src="src/img/pepper.png " alt=" ">
+                            </div>
+                            <div class="dish__pepper-text ">
+                                <p><span>Pepper Pals.........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__pepper-price ">
+                                <p><span>$14.50</span></p>
+                            </div>
                         </div>
-                        <div class="dish__crispy-text ">
-                            <p><span>Crispy Fiery.........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__crispy-price ">
-                            <p><span>$6.90</span></p>
-                        </div>
-                        <div class="dish__chicken-image ">
-                            <img src="src/img/chicken.png " alt=" ">
-                        </div>
-                        <div class="dish__chicken-text ">
-                            <p><span>Chicken Mex Bowl.............................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__chicken-price ">
-                            <p><span>$11.40</span></p>
-                        </div>
-                        <div class="dish__pepper-image ">
-                            <img src="src/img/pepper.png " alt=" ">
-                        </div>
-                        <div class="dish__pepper-text ">
-                            <p><span>Pepper Pals.........................................</span><br>Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__pepper-price ">
-                            <p><span>$14.50</span></p>
-                        </div>
-                        <div class="dish__chocolate-image ">
-                            <img src="src/img/chocolate.png " alt=" ">
-                        </div>
-                        <div class="dish__chocolate-text ">
-                            <p><span>Chocolate Cake................................</span><br> Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
-                        </div>
-                        <div class="dish__chocolate-price ">
-                            <p><span>$13.30</span></p>
+                        <div class="dish__col" data-cat="desart">
+                            <div class="dish__chocolate-image ">
+                                <img src="src/img/chocolate.png " alt=" ">
+                            </div>
+                            <div class="dish__chocolate-text ">
+                                <p><span>Chocolate Cake................................</span><br> Internet tend to repeat predefined chunks as necessary, making this Internet.</p>
+                            </div>
+                            <div class="dish__chocolate-price ">
+                                <p><span>$13.30</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
