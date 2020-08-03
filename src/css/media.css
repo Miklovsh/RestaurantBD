@@ -1,0 +1,38 @@
+    @media (max-width: 1203px) {  
+    .header__top-number p{
+        width: 220px;
+        }
+         
+        .header__text p{
+            width: 700px;
+        }
+
+        .header__top-search img {
+            display: -50px;
+        }
+
+        .header__top-search input{
+            margin-left: -50px;
+        }
+     
+    }
+    
+    @media (max-width: 1152px){
+         .menu {
+          margin-left: -50px;
+        }
+        .header__top-search input{
+            margin-left: -70px;
+        }
+    }
+
+    @media (max-width: 1078px){
+        .menu__list li { 
+            display: none;
+        }
+         
+        .menu div{
+            display: block;
+        }
+     
+    }
