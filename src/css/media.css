@@ -172,3 +172,122 @@
             margin-left: -160px;
         }
     }
+    
+    @media (max-width: 1275px) {
+        .content__inner {
+            margin-left: -70px;
+        }
+    }
+    
+    @media (max-width: 1250px) {
+        .content__text p {
+            width: 600px;
+        }
+    }
+    
+    @media (max-width: 1210px) {
+        .content__inner {
+            margin-left: -140px;
+        }
+    }
+    
+    @media (max-width: 1170px) {
+        .content__text p {
+            width: 550px;
+        }
+        .content__inner {
+            margin-left: -210px;
+        }
+    }
+    
+    @media (max-width: 1130px) {
+        .content__text p {
+            width: 500px;
+        }
+        .content__inner {
+            margin-left: -240px;
+        }
+    }
+    
+    @media (max-width: 1060px) {
+        .content__text p {
+            width: 450px;
+        }
+        .content__inner {
+            margin-left: -300px;
+        }
+    }
+    
+    @media (max-width: 1020px) {
+        .content__text p {
+            width: 400px;
+        }
+        .content__inner {
+            margin-left: -360px;
+        }
+    }
+    
+    @media (max-width: 965px) {
+        .content__text p {
+            width: 350px;
+        }
+        .content__inner {
+            margin-left: -420px;
+        }
+    }
+    
+    @media (max-width: 910px) {
+        .content__text p {
+            width: 300px;
+        }
+        .content__inner {
+            margin-left: -480px;
+        }
+    }
+    
+    @media (max-width: 910px) {
+        .content__image {
+            display: none;
+        }
+        .content__inner {
+            padding-left: 150px;
+            margin-top: -50px;
+        }
+    }
+    
+    @media (max-width: 777px) {
+        .content {
+            overflow: hidden;
+        }
+        .content__text p {
+            width: 400px;
+        }
+        .content__inner {
+            margin-top: 600px;
+            padding-right: 40%;
+        }
+        .content__box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 20%;
+        }
+    }
+    
+    @media (max-width: 580px) {
+        .content__box {
+            padding-left: 15%;
+        }
+        .content__title p {
+            margin-top: -50px;
+        }
+        .content__text p {
+            margin-top: -50px;
+        }
+    }
+    
+    @media (max-width: 510px) {
+        .content__box {
+            padding-left: 10%;
+        }
+    }
