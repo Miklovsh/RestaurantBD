@@ -372,3 +372,133 @@
             display: none;
         }
     }
+    
+    @media (max-width: 1273px) {
+        .about__accordeon dd {
+            width: 540px;
+        }
+    }
+    
+    @media (max-width: 1204px) {
+        .about__text p {
+            width: 700px;
+        }
+        .about__accordeon i {
+            margin-left: -40px
+        }
+    }
+    
+    @media (max-width: 1105px) {
+        .about__text p {
+            width: 600px;
+        }
+        .about__accordeon i {
+            margin-left: -80px
+        }
+    }
+    
+    @media (max-width: 1067px) {
+        .about__accordeon i {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 1060px) {
+        .about__image img {
+            margin-top: 250px;
+            width: 40%;
+            margin-left: 20%;
+        }
+        .about {
+            overflow: hidden;
+        }
+        .about__text p {
+            width: 900px;
+        }
+    }
+    
+    @media (max-width: 985px) {
+        .about__text p {
+            width: 700px;
+        }
+        .about__accordeon dd {
+            width: 500px;
+        }
+        .about__image img {
+            margin-left: 30%;
+        }
+    }
+    
+    @media (max-width: 940px) {
+        .about__image img {
+            margin-left: 50%;
+        }
+    }
+    
+    @media (max-width: 825px) {
+        .about__image img {
+            margin-left: 60%;
+        }
+    }
+    
+    @media (max-width: 775px) {
+        .about__accordeon {
+            margin-top: 400px;
+            margin-left: 10%;
+        }
+        .about__image img {
+            margin-top: -120px;
+            margin-left: -100px;
+            width: 50%;
+        }
+        .about__text p {
+            width: 650px;
+        }
+    }
+    
+    @media (max-width: 710px) {
+        .about__text p {
+            width: 600px;
+        }
+        .about__accordeon {
+            margin-left: 5%;
+        }
+    }
+    
+    @media (max-width: 660px) {
+        .about__text p {
+            width: 550px;
+        }
+        .about__accordeon {
+            margin-left: 0;
+        }
+    }
+    
+    @media (max-width: 601px) {
+        .about__text p {
+            font-size: 12px;
+            width: 500px;
+        }
+        .about__accordeon {
+            margin-top: 450px;
+        }
+        .about__image img {
+            margin-top: -170px;
+        }
+    }
+    
+    @media (max-width: 555px) {
+        .about__text p {
+            width: 450px;
+        }
+        .about__accordeon dd {
+            width: 400px;
+        }
+        .about__image img {
+            margin-top: -280px;
+            width: 60%;
+        }
+        .about__accordeon {
+            margin-top: 550px;
+        }
+    }
