@@ -1,38 +1,174 @@
-    @media (max-width: 1203px) {  
-    .header__top-number p{
-        width: 220px;
+    @media (max-width: 1203px) {
+        .header__top-number p {
+            width: 220px;
         }
-         
-        .header__text p{
+        .header__text p {
             width: 700px;
         }
-
         .header__top-search img {
             display: -50px;
         }
-
-        .header__top-search input{
+        .header__top-search input {
             margin-left: -50px;
         }
-     
     }
     
-    @media (max-width: 1152px){
-         .menu {
-          margin-left: -50px;
+    @media (max-width: 1152px) {
+        .menu {
+            margin-left: -50px;
         }
-        .header__top-search input{
+        .header__top-search input {
             margin-left: -70px;
         }
     }
-
-    @media (max-width: 1078px){
-        .menu__list li { 
+    
+    @media (max-width: 1078px) {
+        .menu__list li {
             display: none;
         }
-         
-        .menu div{
+        .menu div {
             display: block;
         }
-     
+        .menu__btn {
+            margin-left: 950px;
+        }
+        .header__top-search input {
+            display: none;
+        }
+        .header__top-search img {
+            display: none;
+        }
+        .header__text p {
+            width: 600px;
+        }
+    }
+    
+    @media (max-width: 1059px) {
+        .header__text p {
+            width: 500px;
+            padding-left: 60px;
+        }
+    }
+    
+    @media (max-width: 1033px) {
+        .header__text p {
+            font-size: 12px;
+            padding-left: 60px;
+        }
+        .header__title h1 {
+            font-size: 36px;
+        }
+        .header__heading p {
+            font-size: 24px;
+        }
+        .header__top-login p {
+            margin-left: -150px;
+        }
+        .header__top-number p {
+            font-size: 8px;
+            margin-left: -50px;
+        }
+        .header__top-site p {
+            width: 200px;
+        }
+        .header__btn a {
+            width: 100px;
+        }
+        .header {
+            overflow: hidden;
+        }
+    }
+    
+    @media (max-width: 1010px) {
+        .menu__btn {
+            margin-left: 850px;
+        }
+    }
+    
+    @media (max-width: 990px) {
+        .header__text p {
+            margin-left: -40px;
+        }
+    }
+    
+    @media (max-width: 920px) {
+        .menu__btn {
+            margin-left: 750px;
+        }
+        .header__top-site p {
+            font-size: 10px;
+            width: 150px;
+        }
+        .header__text p {
+            margin-left: -50px;
+        }
+    }
+    
+    @media (max-width: 880px) {
+        .header__text p {
+            margin-left: -90px;
+        }
+    }
+    
+    @media (max-width: 830px) {
+        .header__top-site {
+            display: none;
+        }
+        .header__top-login p {
+            margin-left: 50px;
+        }
+        .header__top-number p {
+            margin-left: 50px;
+        }
+        .menu__btn {
+            margin-left: 650px;
+        }
+        .header__text p {
+            margin-left: -130px;
+        }
+    }
+    
+    @media (max-width: 715px) {
+        .menu__btn {
+            margin-left: 550px;
+        }
+        .header__text p {
+            margin-left: -160px;
+        }
+        .header__top-login p {
+            margin-left: -20px;
+            font-size: 12px;
+        }
+        .header__top-number p {
+            margin-left: -10px;
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 635px) {
+        .menu__btn {
+            margin-left: 300px;
+        }
+        .header__title h1 {
+            font-size: 26px;
+        }
+        .header__text p {
+            margin-left: -120px;
+            width: 330px;
+        }
+        .header__top-login p {
+            margin-left: -50px;
+        }
+        .header__btn a {
+            width: 10px;
+        }
+        .header__top-logo {
+            margin-left: 20px;
+        }
+    }
+    
+    @media (max-width: 540px) {
+        .header__text p {
+            margin-left: -160px;
+        }
     }
