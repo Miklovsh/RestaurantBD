@@ -537,9 +537,123 @@
                         display: none;
                     }
                 }
-
+                
                 @media (max-width: 1152px) {
                     .dish {
+                        display: none;
+                    }
+                }
+                
+                @media (max-width: 1272px) {
+                    .team__image_big {
+                        display: none;
+                    }
+                    .team__image_small img {
+                        display: none;
+                    }
+                    .team__inner {
+                        display: flex;
+                        flex-direction: column;
+                        width: 40%;
+                        float: right;
+                        margin-right: 400px;
+                    }
+                    .team__chief {
+                        margin-top: 500px;
+                    }
+                    .team__chief {
+                        margin-bottom: 50px;
+                    }
+                    .team__woman-cook {
+                        margin-bottom: 50px;
+                    }
+                    .team__man-cook {
+                        margin-bottom: 50px;
+                    }
+                    .team__image-follow {
+                        margin-left: 25px;
+                        padding-bottom: 25px;
+                    }
+                }
+                
+                @media (max-width: 1145px) {
+                    .team__inner p {
+                        margin-left: -15px;
+                    }
+                    .team__image-follow {
+                        margin-left: 15px;
+                    }
+                }
+                
+                @media (max-width: 1080px) {
+                    .team__inner {
+                        width: 45%;
+                        margin-right: 250px;
+                    }
+                }
+                
+                @media (max-width: 983px) {
+                    .team__inner {
+                        width: 50%;
+                        margin-right: 200px;
+                    }
+                }
+                
+                @media (max-width: 889px) {
+                    .team__inner {
+                        width: 55%;
+                        margin-right: 150px;
+                    }
+                    .team__image-follow {
+                        margin-left: 25px;
+                    }
+                }
+                
+                @media (max-width: 809px) {
+                    .team__inner {
+                        width: 60%;
+                        margin-right: 100px;
+                    }
+                }
+                
+                @media (max-width: 743px) {
+                    .team__inner {
+                        width: 65%;
+                        margin-right: 50px;
+                    }
+                    .team__inner p {
+                        margin-left: 0;
+                    }
+                    .team__image-follow {
+                        margin-left: 10px;
+                    }
+                }
+                
+                @media (max-width: 686px) {
+                    .team__inner {
+                        width: 70%;
+                        margin-right: 50px;
+                    }
+                }
+                
+                @media (max-width: 640px) {
+                    .team__inner {
+                        width: 80%;
+                        margin-right: 25px;
+                    }
+                    .team__image-follow {
+                        margin-left: 25px;
+                    }
+                }
+                
+                @media (max-width: 605px) {
+                    .team__image-follow {
+                        margin-left: 15px;
+                    }
+                }
+                
+                @media (max-width: 568px) {
+                    .team {
                         display: none;
                     }
                 }
