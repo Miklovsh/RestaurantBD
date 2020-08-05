@@ -537,3 +537,9 @@
                         display: none;
                     }
                 }
+
+                @media (max-width: 1152px) {
+                    .dish {
+                        display: none;
+                    }
+                }
