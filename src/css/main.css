@@ -363,7 +363,6 @@
         .gallery__slider img {
             width: 90%;
         }
-  
         
         .gallery__slider p {
             position: absolute;
@@ -974,22 +973,13 @@
             margin-left: 37%;
         }
         
-        .feedback__image {
-            float: left;
-            padding-top: 30px;
+        .feedback__slider {
+            margin-top: 50px;
         }
         
-        .feedback__settings {
-            padding-top: 250px;
-        }
-        
-        .feedback__box {
-            border: 1px solid #ffffff;
-            background-color: #ffffff;
-            width: 770px;
-            height: 515px;
-            margin-left: 400px;
-            margin-top: -250px;
+        .slick-prev:before,
+        .slick-next:before {
+            color: #30c4e8;
         }
         
         .feedback__ic {
