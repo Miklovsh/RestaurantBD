@@ -1,6 +1,6 @@
 $(".about__accordeon dd").hide().prev().click(function() {
-	$(this).parents(".about__accordeon").find("dd").not(this).slideUp().prev().removeClass("active");
-	$(this).next().not(":visible").slideDown().prev().addClass("active");
+    $(this).parents(".about__accordeon").find("dd").not(this).slideUp().prev().removeClass("active");
+    $(this).next().not(":visible").slideDown().prev().addClass("active");
 });
 
 
@@ -13,13 +13,13 @@ $(function() {
 
         let cat = $(this).data('filter');
 
-        if(cat == 'all') {
+        if (cat == 'all') {
             $("[data-cat]").removeClass("hide");
         } else {
             $("[data-cat]").each(function() {
                 let dishCat = $(this).data('cat');
 
-                if(dishCat != cat) {
+                if (dishCat != cat) {
                     $(this).addClass('hide');
                 } else {
                     $(this).removeClass('hide');
@@ -30,10 +30,10 @@ $(function() {
 });
 
 
-    $('.feedback__slider').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true
-      });
+$('.feedback__slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+});
