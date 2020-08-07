@@ -37,3 +37,5 @@ $('.feedback__slider').slick({
     slidesToShow: 1,
     adaptiveHeight: true
 });
+
+

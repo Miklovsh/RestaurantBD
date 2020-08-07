@@ -176,6 +176,96 @@
                             }
                         }
                         
+                        @media (max-width: 490px) {
+                            .header__top-number p {
+                                display: none;
+                            }
+                            .header__top-login p {
+                                display: none;
+                            }
+                            .header__btn a {
+                                display: none;
+                            }
+                            .header__title h1 {
+                                font-size: 18px;
+                            }
+                            .header__text p {
+                                font-size: 10px;
+                            }
+                            .header__heading h2 {
+                                font-size: 16px;
+                            }
+                        }
+                        
+                        @media (max-width: 470px) {
+                            .header__text p {
+                                margin-left: -180px;
+                            }
+                        }
+                        
+                        @media (max-width: 455px) {
+                            .header__text p {
+                                margin-left: -190px;
+                            }
+                        }
+                        
+                        @media (max-width: 411px) {
+                            .header__text p {
+                                margin-left: -210px;
+                                font-size: 9px;
+                            }
+                            .header__title h1 {
+                                margin-left: -40px;
+                            }
+                            .header__heading h2 {
+                                margin-left: -40px;
+                            }
+                        }
+                        
+                        @media (max-width: 375px) {
+                            .header__text p {
+                                margin-left: -180px;
+                                width: 230px;
+                            }
+                        }
+                        
+                        @media (max-width: 360px) {
+                            .header__title h1 {
+                                margin-left: -30px;
+                            }
+                            .header__heading h2 {
+                                margin-left: -30px;
+                            }
+                            .header__text p {
+                                margin-left: -190px;
+                                width: 230px;
+                            }
+                        }
+                        
+                        @media (max-width: 340px) {
+                            .header__title h1 {
+                                margin-left: -30px;
+                            }
+                            .header__heading h2 {
+                                margin-left: -30px;
+                            }
+                        }
+                        
+                        @media (max-width: 322px) {
+                            .header__title h1 {
+                                margin-left: -20px;
+                            }
+                            .header__heading h2 {
+                                margin-left: -20px;
+                            }
+                        }
+                        
+                        @media (max-width: 320px) {
+                            .header__text p {
+                                margin-left: -200px;
+                            }
+                        }
+                        
                         @media (max-width: 1275px) {
                             .content__inner {
                                 margin-left: -70px;
