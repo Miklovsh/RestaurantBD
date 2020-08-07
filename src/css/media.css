@@ -658,7 +658,7 @@
                     }
                 }
                 
-                @media (max-width: 568px) {
+                @media (max-width: 570px) {
                     .team {
                         display: none;
                     }
@@ -700,7 +700,7 @@
                     }
                 }
                 
-                @media (max-width: 569px) {
+                @media (max-width: 570px) {
                     .feedback__title {
                         margin-top: -100px;
                     }
@@ -718,5 +718,58 @@
                     }
                     .feedback__slider svg {
                         margin-top: -100px;
+                    }
+                }
+                
+                @media (max-width: 1260px) {
+                    .subscribe__email input {
+                        margin-left: -50px;
+                    }
+                    .subscribe__email img {
+                        margin-left: -50px;
+                    }
+                }
+                
+                @media (max-width: 1200px) {
+                    .subscribe__email input {
+                        margin-left: -120px;
+                    }
+                    .subscribe__email img {
+                        margin-left: -80px;
+                    }
+                }
+                
+                @media (max-width: 1163px) {
+                    .subscribe__email {
+                        margin-top: 150px;
+                    }
+                    .subscribe__email img {
+                        z-index: 1;
+                        position: absolute;
+                    }
+                    .subscribe__email input {
+                        position: relative;
+                    }
+                }
+                
+                @media (max-width: 770px) {
+                    .subscribe__email {
+                        margin-left: -25px;
+                    }
+                }
+                
+                @media (max-width: 630px) {
+                    .subscribe__text {
+                        max-width: 485px;
+                    }
+                }
+                
+                @media (max-width: 530px) {
+                    .subscribe__text {
+                        max-width: 385px;
+                    }
+                    .subscribe__email {
+                        margin-top: 170px;
+                        margin-left: -35px;
                     }
                 }
