@@ -5,11 +5,14 @@
                             .header__text p {
                                 width: 700px;
                             }
-                            .header__top-search img {
-                                display: -50px;
-                            }
                             .header__top-search input {
-                                margin-left: -50px;
+                                margin-left: -55px;
+                            }
+                        }
+                        
+                        @media (max-width: 1184px) {
+                            .header__top-number p {
+                                width: 210px;
                             }
                         }
                         
@@ -58,7 +61,7 @@
                             .header__title h1 {
                                 font-size: 36px;
                             }
-                            .header__heading p {
+                            .header__heading h2 {
                                 font-size: 24px;
                             }
                             .header__top-login p {
@@ -758,7 +761,7 @@
                             }
                         }
                         
-                        @media (max-width: 630px) {
+                        @media (max-width: 635px) {
                             .subscribe__text {
                                 max-width: 485px;
                             }
@@ -931,10 +934,10 @@
                         
                         @media (max-width: 570px) {
                             .form__name input {
-                                max-width: 380px;
+                                max-width: 355px;
                             }
                             .form__email input {
-                                max-width: 380px;
+                                max-width: 355px;
                             }
                             .form__message textarea {
                                 max-width: 380px;
@@ -945,7 +948,7 @@
                         }
                         
                         @media (max-width: 1215px) {
-                            .footer{
+                            .footer {
                                 display: none;
                             }
                         }
