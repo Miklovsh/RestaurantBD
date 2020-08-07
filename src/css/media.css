@@ -869,3 +869,77 @@
                                 margin-left: -450px;
                             }
                         }
+                        
+                        @media (max-width: 1220px) {
+                            .form {
+                                margin-left: -50px;
+                            }
+                        }
+                        
+                        @media (max-width: 1165px) {
+                            .form {
+                                margin-left: -100px;
+                            }
+                        }
+                        
+                        @media (max-width: 1115px) {
+                            .form {
+                                margin-left: -150px;
+                            }
+                        }
+                        
+                        @media (max-width: 1060px) {
+                            .form {
+                                margin-left: -200px;
+                            }
+                        }
+                        
+                        @media (max-width: 1010px) {
+                            .form {
+                                margin-left: -250px;
+                            }
+                        }
+                        
+                        @media (max-width: 960px) {
+                            .form {
+                                margin-top: 550px;
+                                margin-left: -450px;
+                            }
+                            .schedule {
+                                margin-top: -550px;
+                                margin-left: 200px;
+                            }
+                        }
+                        
+                        @media (max-width: 750px) {
+                            .form {
+                                margin-left: -540px;
+                            }
+                            .schedule {
+                                margin-left: 100px;
+                            }
+                        }
+                        
+                        @media (max-width: 660px) {
+                            .form {
+                                margin-left: -600px;
+                            }
+                            .schedule {
+                                margin-left: 50px;
+                            }
+                        }
+                        
+                        @media (max-width: 570px) {
+                            .form__name input {
+                                max-width: 380px;
+                            }
+                            .form__email input {
+                                max-width: 380px;
+                            }
+                            .form__message textarea {
+                                max-width: 380px;
+                            }
+                            .schedule {
+                                margin-left: 25px;
+                            }
+                        }
