@@ -773,3 +773,18 @@
                         margin-left: -35px;
                     }
                 }
+                
+                @media (max-width: 1240px) {
+                    .blog__title {
+                        position: relative;
+                    }
+                    .blog__inner {
+                        margin-left: -30px;
+                    }
+                }
+                
+                @media (max-width: 1210px) {
+                    .blog {
+                        display: none;
+                    }
+                }
