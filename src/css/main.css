@@ -12,7 +12,7 @@
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 5%;
-        }  
+        }
         
         .header__top {
             display: flex;
@@ -951,19 +951,19 @@
         }
         
         .feedback__title p {
-            font-family: 'Sacramento', cursive;
+            font-family: 'Lobster Two', cursive;
+            color: #222222;
+            text-align: center;
             font-size: 36px;
             font-weight: 400;
             line-height: 54px;
-            color: #ff3a2d;
             width: 450px;
             height: 112px;
-            text-align: center;
         }
         
         .feedback__title span {
-            font-family: 'Lobster Two', cursive;
-            color: #222222;
+            font-family: 'Sacramento', cursive;
+            color: #ff3a2d;
         }
         
         .feedback__icon {
