@@ -385,6 +385,70 @@
                             }
                         }
                         
+                        @media (max-width: 480px) {
+                            .content__text p {
+                                width: 350px;
+                            }
+                        }
+                        
+                        @media (max-width: 430px) {
+                            .content__form-border {
+                                max-width: 280px;
+                                overflow: hidden;
+                            }
+                            .content__form input {
+                                max-width: 230px;
+                            }
+                            .content__form-btn {
+                                max-width: -10%;
+                                padding-left: -40;
+                            }
+                            .content__form a {
+                                width: 30%;
+                            }
+                            .content__btn-inner {
+                                margin-left: -30px;
+                                padding-left: -10px;
+                                margin-right: 0;
+                            }
+                            .content_form-box select {
+                                margin-left: 160px;
+                            }
+                            .content__form-title {
+                                margin-left: -35px;
+                            }
+                            .content__text p {
+                                width: 300px;
+                            }
+                        }
+                        
+                        @media (max-width: 415px) {
+                            .content__form-border {
+                                margin-left: 20px;
+                            }
+                        }
+                        
+                        @media (max-width: 375px) {
+                            .content__text p {
+                                width: 250px;
+                            }
+                            .content__form-border {
+                                margin-left: 20px;
+                            }
+                        }
+                        
+                        @media (max-width: 360px) {
+                            .content__form-border {
+                                margin-left: 20px;
+                            }
+                        }
+                        
+                        @media (max-width: 340px) {
+                            .content__form-border {
+                                margin-left: 10px;
+                            }
+                        }
+                        
                         @media (max-width: 1150px) {
                             .gallery__slider p {
                                 font-size: 18px;
