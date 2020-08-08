@@ -1247,6 +1247,36 @@
                                 }
                             }
                             
+                            @media (max-width: 440px) {
+                                .form__name input {
+                                    max-width: 290px;
+                                }
+                                .form__email input {
+                                    max-width: 290px;
+                                }
+                                .form__message textarea {
+                                    max-width: 315px;
+                                }
+                                .form__title {
+                                    margin-top: -550px;
+                                }
+                                .schedule {
+                                    display: none;
+                                }
+                            }
+                            
+                            @media (max-width: 355px) {
+                                .form__name input {
+                                    max-width: 220px;
+                                }
+                                .form__email input {
+                                    max-width: 220px;
+                                }
+                                .form__message textarea {
+                                    max-width: 250px;
+                                }
+                            }
+                            
                             @media (max-width: 1215px) {
                                 .footer {
                                     display: none;
