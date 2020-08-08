@@ -660,6 +660,70 @@
                                 margin-top: 550px;
                             }
                         }
+
+                        @media (max-width: 480px) {
+                            .about__text p {
+                                width: 400px;
+                            }
+                        }
+                        @media (max-width: 450px) {
+                            .about__text p {
+                                width: 350px;
+                            }
+                            .about__accordeon dd {
+                                width: 350px;
+                            }
+                            .about__image img {
+                                margin-top: -300px;
+                             
+                            }
+                            .about__title p {
+                                margin-top: -100px;
+                        }
+                    }
+                        @media (max-width: 400px) {
+                            .about__text p {
+                                width: 350px;
+                            }
+                            .about__accordeon dd {
+                                width: 300px;
+                            }
+                            .about__image img  {
+                                margin-top: -320px;
+                             
+                            }
+                            .about__title p {
+                                font-size: 24px;
+                                line-height: 30px;
+                                margin-top: -100px;
+                            }
+                        }
+
+                        @media (max-width: 380px) {
+                            .about__image img  {
+                                margin-top: -340px;
+                             
+                            }
+                            .about__text p {
+                                font-size: 12px;
+                                width: 300px;
+                            }
+                    
+                        }
+
+                        @media (max-width: 345px) {
+                            .about__accordeon dd {
+                                width: 250px;
+                            }
+                            .about__text p {
+                               max-width: 250px;
+                            }
+                            .about__image img  {
+                                margin-top: -400px;
+                             
+                            }
+                        }
+                        
                         
                         @media (max-width: 1140px) {
                             .delivary__cards div {
