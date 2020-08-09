@@ -495,38 +495,38 @@
                             }
                             
                             @media (max-width: 1150px) {
-                                .gallery__slider p {
+                                .gallery__box p {
                                     font-size: 18px;
                                     width: 140px;
                                 }
                             }
                             
                             @media (max-width: 1090px) {
-                                .gallery__slider p {
+                                .gallery__box p {
                                     width: 50px;
                                 }
                             }
                             
                             @media (max-width: 1100px) {
-                                .gallery__slider p {
+                                .gallery__box p {
                                     padding-left: 3%;
                                     margin-left: -3%;
                                     font-size: 4px;
                                     max-width: 150px;
                                 }
-                                .gallery__slider span {
+                                .gallery__box span {
                                     display: none;
                                 }
                             }
                             
                             @media (max-width: 990px) {
-                                .gallery__slider p {
+                                .gallery__box p {
                                     max-width: 120px;
                                 }
                             }
                             
                             @media (max-width: 700px) {
-                                .gallery__slider p {
+                                .gallery__box p {
                                     max-width: 100px;
                                     padding-left: 10%;
                                     margin-left: -10%;
