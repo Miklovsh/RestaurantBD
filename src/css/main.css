@@ -72,8 +72,6 @@
             max-width: 475px;
         }
         
-    
-        
         .menu__list {
             display: flex;
             flex-direction: row;
@@ -261,26 +259,6 @@
         
         .content__form-table {
             margin-top: 290px;
-        }
-        
-        .content__select-total {
-            margin-top: 115px;
-            margin-left: 200px;
-        }
-        
-        .content__select-date {
-            margin-top: 175px;
-            margin-left: 250px;
-        }
-        
-        .content__select-time {
-            margin-top: 235px;
-            margin-left: 220px;
-        }
-        
-        .content__select-table {
-            margin-top: 295px;
-            margin-left: 172px;
         }
         
         .content__image {
