@@ -220,12 +220,6 @@
             color: #959595;
         }
         
-        .content__form select {
-            width: 20px;
-            border-style: none;
-            position: absolute;
-        }
-        
         .content__form-title {
             margin-top: 80px;
             display: flex;
