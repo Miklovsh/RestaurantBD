@@ -29,12 +29,6 @@
                                 .menu__list li {
                                     display: none;
                                 }
-                                .menu div {
-                                    display: block;
-                                }
-                                .menu__btn {
-                                    margin-left: 950px;
-                                }
                                 .header__top-search input {
                                     display: none;
                                 }
@@ -82,12 +76,6 @@
                                 }
                             }
                             
-                            @media (max-width: 1010px) {
-                                .menu__btn {
-                                    margin-left: 850px;
-                                }
-                            }
-                            
                             @media (max-width: 990px) {
                                 .header__text p {
                                     margin-left: -40px;
@@ -95,9 +83,6 @@
                             }
                             
                             @media (max-width: 920px) {
-                                .menu__btn {
-                                    margin-left: 750px;
-                                }
                                 .header__top-site p {
                                     font-size: 10px;
                                     width: 150px;
@@ -123,24 +108,12 @@
                                 .header__top-number p {
                                     margin-left: 50px;
                                 }
-                                .menu__btn {
-                                    margin-left: 700px;
-                                }
                                 .header__text p {
                                     margin-left: -130px;
                                 }
                             }
                             
-                            @media (max-width: 770px) {
-                                .menu__btn {
-                                    margin-left: 650px;
-                                }
-                            }
-                            
                             @media (max-width: 715px) {
-                                .menu__btn {
-                                    margin-left: 600px;
-                                }
                                 .header__text p {
                                     margin-left: -160px;
                                 }
@@ -151,12 +124,6 @@
                                 .header__top-number p {
                                     margin-left: -10px;
                                     font-size: 10px;
-                                }
-                            }
-                            
-                            @media (max-width: 650px) {
-                                .menu__btn {
-                                    margin-left: 550px;
                                 }
                             }
                             
@@ -179,27 +146,9 @@
                                 }
                             }
                             
-                            @media (max-width: 600px) {
-                                .menu__btn {
-                                    margin-left: 500px;
-                                }
-                            }
-                            
-                            @media (max-width: 550px) {
-                                .menu__btn {
-                                    margin-left: 450px;
-                                }
-                            }
-                            
                             @media (max-width: 540px) {
                                 .header__text p {
                                     margin-left: -160px;
-                                }
-                            }
-                            
-                            @media (max-width: 500px) {
-                                .menu__btn {
-                                    margin-left: 400px;
                                 }
                             }
                             
@@ -236,12 +185,6 @@
                                 }
                             }
                             
-                            @media (max-width: 450px) {
-                                .menu__btn {
-                                    margin-left: 350px;
-                                }
-                            }
-                            
                             @media (max-width: 411px) {
                                 .header__text p {
                                     margin-left: -210px;
@@ -252,12 +195,6 @@
                                 }
                                 .header__heading h2 {
                                     margin-left: -40px;
-                                }
-                            }
-                            
-                            @media (max-width: 400px) {
-                                .menu__btn {
-                                    margin-left: 300px;
                                 }
                             }
                             
@@ -287,12 +224,6 @@
                                 }
                                 .header__heading h2 {
                                     margin-left: -30px;
-                                }
-                            }
-                            
-                            @media (max-width: 330px) {
-                                .menu__btn {
-                                    margin-left: 270px;
                                 }
                             }
                             
