@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="src/fonts/fonts-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="src/fonts/fonts-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/fonts/simplelineicons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap " rel="stylesheet ">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&display=swap " rel="stylesheet ">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap " rel="stylesheet ">
@@ -22,7 +23,7 @@
 </head>
 
 <body>
-    <header class="header ">
+    <header class="header" id="HOME">
         <div class="container ">
             <div class="header__top ">
                 <div class="header__top-logo ">
@@ -45,14 +46,14 @@
             </div>
             <nav class="menu">
                 <ul class="menu__list">
-                    <li><a href="# ">HOME</a></li>
-                    <li><a href="# ">ABOUT</a></li>
-                    <li><a href="# ">PAGE</a></li>
-                    <li><a href="# ">MENU</a></li>
-                    <li><a href="# ">GALLERY</a></li>
-                    <li><a href="# "> BLOG </a></li>
-                    <li><a href="# ">SHOPS</a></li>
-                    <li><a href="# ">CONTACT</a></li>
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#PAGE">PAGE</a></li>
+                    <li><a href="#MENU">MENU</a></li>
+                    <li><a href="#GALLERY">GALLERY</a></li>
+                    <li><a href="#BLOG"> BLOG </a></li>
+                    <li><a href="#SHOPS">SHOPS</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
                     <li>
                         <a href="# "><img src="src/img/basket.png " alt=" "></a>
                     </li>
@@ -61,7 +62,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="header__box">
+            <div class="header__box wow animate__animated animate__bounceInRight">
                 <div class="header__heading">
                     <h2> RestaurantBD is the name of pure food</h2>
                 </div>
@@ -79,9 +80,9 @@
             </div>
         </div>
     </header>
-    <div class="content">
+    <div class="content" id="PAGE">
         <div class="container">
-            <div class="content__box">
+            <div class="content__box wow animate__animated animate__fadeInLeft">
                 <div class="content__title">
                     <p><span>Wellcom</span><br>To Our Resturant</p>
                 </div>
@@ -98,7 +99,7 @@
                     <p>Matthew T. Sloan <span>Founder & Owners</span></p>
                 </div>
             </div>
-            <div class="content__inner">
+            <div class="content__inner wow animate__animated animate__fadeInRight">
                 <form class="content__form">
                     <div class="content__form-border">
                         <div class="content__form-title">
@@ -124,7 +125,7 @@
             </div>
         </div>
     </div>
-    <div class="gallery">
+    <div class="gallery wow animate__animated animate__bounceInLeft" id="GALLERY">
         <div class="container">
             <div class="gallery__title">
                 <p>Our Restarent Provide <span> Feature Item</span></p>
@@ -160,20 +161,20 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="ABOUT">
         <div class="container">
-            <div class="about__title">
+            <div class="about__title wow animate__animated animate__backInLeft">
                 <p>We Provide Best Services<br><span>About Us</span></p>
             </div>
-            <div class="about__icon">
+            <div class="about__icon wow animate__animated animate__backInLeft">
                 <img src="src/img/trident-blue.png" alt=" ">
             </div>
-            <div class="about__text">
+            <div class="about__text wow animate__animated animate__backInLeft">
                 <p>Injected humour, or randomised words which don't look evethe Internet tend to repeat predefined chunks as necessary, making this the first n slightly believable. If Lorem Ipsum, you need to be sure there isn't on the Internet tend to repeat
                     predefined chunks as you are going to use a passage of Lorem Ipsum, you need to be sure there isn't on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet tend to repeat
                     predefined chunks as you</p>
             </div>
-            <div class="about__accordeon">
+            <div class="about__accordeon wow animate__animated animate__backInLeft">
                 <dl>
                     <dt>1.&nbsp;Our Restaurant provide best service ever to our customer. <i class="fa fa-angle-down"
                             aria-hidden="true"></i></dt>
@@ -199,13 +200,13 @@
                         to repeat tend to repeat predefined chunks as you.</dd>
                 </dl>
             </div>
-            <div class="about__image">
+            <div class="about__image wow animate__animated animate__fadeInUp">
                 <img src="src/img/woman.png" alt=" ">
             </div>
         </div>
     </div>
     <section>
-        <div class="delivary">
+        <div class="delivary wow animate__animated animate__fadeInLeft">
             <div class="container">
                 <div class="delivary__title">
                     <p>3 Easy Steps To Get Home-Delivary <span>For Home Delivary</span></p>
@@ -213,7 +214,7 @@
                 <div class="dilivary__icon">
                     <img src="src/img/double-trident.png" alt=" ">
                 </div>
-                <div class="delivary__cards">
+                <div class="delivary__cards ">
                     <div class="delivary__cards_one">
                         <img src="src/img/cart.png" alt=" ">
                         <h3>Select a Dish</h3>
@@ -237,7 +238,7 @@
         </div>
     </section>
     <div class="container">
-        <div class="dish">
+        <div class="dish" id="MENU">
             <div class="dish__title">
                 <p>We Always Servie Teasty & Healthy Food <span>Main Dish</span></p>
             </div>
@@ -415,11 +416,11 @@
         </div>
     </div>
     <div class="container-event">
-        <div class="event">
+        <div class="event" id="SHOPS">
             <div class="event__video">
                 <video src="restaurantbd.mp4" autoplay muted loop></video>
             </div>
-            <div class="event__info">
+            <div class="event__info wow animate__animated animate__flip animate__delay-1s">
                 <div class="event__info-title">
                     <p>Upcoming Event</p>
                 </div>
@@ -491,7 +492,7 @@
         </div>
     </div>
      <section>
-        <div class="blog">
+        <div class="blog" id="BLOG">
             <div class="container">
                 <div class="blog__box">
                     <div class="blog__title">
@@ -592,7 +593,7 @@
     </section>
     <section>
         <div class="container-contact">
-            <div class="contact">
+            <div class="contact" id="CONTACT">
                 <div class="contact__title">
                     <h6>Contact</h6>
                 </div>
@@ -711,6 +712,10 @@
 
     <script src="src/js/jquery.min.js"></script>
     <script src="src/slick/slick.min.js"></script>
+    <script src="src/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
     <script src="src/js/main.js"></script>
 </body>
 
